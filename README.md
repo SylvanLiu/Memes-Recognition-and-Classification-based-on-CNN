@@ -1,5 +1,12 @@
 # Social-Images(Memes) Recognition and Classification Based on Convolutional Neural Network.
 
+The folder with name 'labeled_Data' contains a partial dataset of self-labelled memes only for exhibition, which were picked from an around-300GB, 600 thousand unlabled raw memes(If you need that for having some fun, just feel free to contact me);
+The folder with name 'Img4Test' contains the samples for testing the local python scripts which process and pre-process local memes.
+
+This project was proposed merely for my personal interest, partially implemented by local python scripts for data processing and pre-processing ,and then deployed on aliyun PAI machine learning platform with online configuration files for training and predicting. 
+
+#### Key word: Computer Vision; Image Processing; Deep Learning; Convolutional Neural Network; Emotion Recognition ; Affective computing.
+
 ## Abstract
 
 With the popularity of ‘Internet Social Culture’ in China, specific images that used to be made, generally with hilarious content, and spread rapidly in subcultures like post bars and other kinds of online forums, have also been gradually accepted and then appreciated by the masses. Furthermore, these ‘Social Function Pictures’ are called ‘memes’ today, and largely used in daily communication.
@@ -40,7 +47,7 @@ Before embarking on the main task, I had tried to dig some common attributes by 
 ### 1.1 	Graph [1]
 
 <p align="center">
-  <img src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/WechatIMG7.png">
+  <img width="500" height="500" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/C0.png">
 </p>
 
 By iterations and loop structures, we can visit all files and collect statistics one by one and layer by layer. Subsequently, by importing and utilizing ‘Seaborn’, a python data visualization library based on ‘matplotlib’, a graph with 286,433 discrete points was drawn.Each point in the graph corresponds to a local image, and the x-axis represents the widths of images, the y-axis represents the heights of images. The origin point (0, 0) is an unreal point I made up for initializing the points set, and the point at the top-right corner is( 2000, 2000).
@@ -64,10 +71,18 @@ Subsequently, I picked 3,037 genuine ‘Social Function Pictures’ by manually 
 Similar to the super wide scenes presented by our eyes, as ways of recording or simulating the real world which can make us harbor the stronger sense of ‘immersion’, images contain realistic content prefer high width to height ratios, like 2:1 vision or higher. We can find that, though wide visions can make us feel calm and relaxed.
 Influenced by this, the images in our life are likely to be reasonably wider.
 
+<p align="center">
+  <img width="250" height="250" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/B0.png">
+  <img width="250" height="250" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/B1.png">
+</p>
+
 #### 1.2.1-1 However, to the SFP., why are the diversities between their widths and heights not so apparent as we found before on general images?
 By observing and matching all the SFP. with final forms, not only can we find nearly every one of them actually just revolves around a head, especially a set of anthropomorphic facial features on the head, instead of the full image, and sometimes mingled with extra body movements or poses, this also suits general portrait-style images and the prototype of SFP. 
 For example, the following sample is very typical for illustrating this thought, it is a standard size of wide silver screen, but the only place need to be highlighted in it is the facial expression of this actor. Hence it is quite easy to figure out where the kernel is of this pictures.
 
+<p align="center">
+  <img src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/WechatIMG7.png">
+</p>
 
 #### 1.2.1-2 But why all normal images we’ve received are rectangles instead of circles? 
 It is not the main task for us, but I still want to try to provide a reason for this.
