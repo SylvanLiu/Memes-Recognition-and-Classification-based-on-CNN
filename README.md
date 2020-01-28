@@ -1,8 +1,10 @@
 # Social-Images(Memes) Recognition and Classification Based on Convolutional Neural Network.
 
+## with key word: Computer Vision; Image Processing; Deep Learning; Convolutional Neural Network; Emotion Recognition ; Affective computing.
+
 The folder with name 'labeled_Data' contains a partial dataset of self-labelled memes only for exhibition, which were picked from an around-300GB, 600 thousand unlabled raw memes. (If you need that for having some fun, just feel free to contact me)
 
-This project was proposed merely for my personal interest, partially implemented by local python scripts and aliyun PAI machine learning platform python configuration, with key word: Computer Vision; Image Processing; Deep Learning; Convolutional Neural Network; Emotion Recognition ; Affective computing.
+This project was proposed merely for my personal interest, partially implemented by local python scripts and deployed on aliyun PAI machine learning platform with online configuration files. 
 
 ## Abstract
 
