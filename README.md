@@ -40,7 +40,7 @@ Before embarking on the main task, I had tried to dig some common attributes by 
 ### 1.1 	Graph [1]
 
 <p align="center">
-  <img src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/C0.png">
+  <img width="500" height="500" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/C0.png">
 </p>
 
 By iterations and loop structures, we can visit all files and collect statistics one by one and layer by layer. Subsequently, by importing and utilizing ‘Seaborn’, a python data visualization library based on ‘matplotlib’, a graph with 286,433 discrete points was drawn.Each point in the graph corresponds to a local image, and the x-axis represents the widths of images, the y-axis represents the heights of images. The origin point (0, 0) is an unreal point I made up for initializing the points set, and the point at the top-right corner is( 2000, 2000).
@@ -65,8 +65,8 @@ Similar to the super wide scenes presented by our eyes, as ways of recording or 
 Influenced by this, the images in our life are likely to be reasonably wider.
 
 <p align="center">
-  <img src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/B0.png">
-  <img src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/B1.png">
+  <img width="250" height="250" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/B0.png">
+  <img width="250" height="250" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/B1.png">
 </p>
 
 #### 1.2.1-1 However, to the SFP., why are the diversities between their widths and heights not so apparent as we found before on general images?
