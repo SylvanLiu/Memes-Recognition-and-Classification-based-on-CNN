@@ -1,5 +1,7 @@
 # Social-Images(Memes) Recognition and Classification Based on Convolutional Neural Network.
 
+The folder with name 'labeled_Data' contains a partial dataset of self-labelled memes only for exhibition, which were picked from an around-300GB, 600 thousand unlabled raw memes. (If you need that for having some fun, just feel free to contact me.)
+
 ## Abstract
 
 With the popularity of ‘Internet Social Culture’ in China, specific images that used to be made, generally with hilarious content, and spread rapidly in subcultures like post bars and other kinds of online forums, have also been gradually accepted and then appreciated by the masses. Furthermore, these ‘Social Function Pictures’ are called ‘memes’ today, and largely used in daily communication.
