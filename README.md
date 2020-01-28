@@ -25,8 +25,8 @@ The more frequently we use ‘Social Function Pictures’ in our daily life, the
 |Samsung Non-Standard JPEG Format (0.20%)|0xFF 0xD8 0xFF 0xDB|[255, 216, 255, 219]|
 |HyperText Markup Language 3 Format (0.03%)|0x3C 0x21 0x44 0x4F|[60, 33, 68, 79] |
 |Other Non-Standard JPEG Formats (0.03%)|0xFF 0xD8 0xFF 0xC0|[255, 216, 255, 192]|
-|Other Non-Standard JPEG Formats (0.03%)|0xFF 0xD8 0xFF 0xE2|[255, 216, 255, 226]|
-|Other Non-Standard JPEG Formats (0.03%)|0xFF 0xD8 0xFF 0xE9|[255, 216, 255, 233]|
-|Other Non-Standard JPEG Formats (0.03%)|0xFF 0xD8 0xFF 0xED|[255, 216, 255, 237]|
-|Other Non-Standard JPEG Formats (0.03%)|0xFF 0xD8 0xFF 0xFE|[255, 216, 255, 254]|
+||0xFF 0xD8 0xFF 0xE2|[255, 216, 255, 226]|
+||0xFF 0xD8 0xFF 0xE9|[255, 216, 255, 233]|
+||0xFF 0xD8 0xFF 0xED|[255, 216, 255, 237]|
+||0xFF 0xD8 0xFF 0xFE|[255, 216, 255, 254]|
 |Other 16 Types of Equivocal Formats (0.00%)|	N/A	| N/A |
