@@ -39,6 +39,10 @@ Before embarking on the main task, I had tried to dig some common attributes by 
 
 ### 1.1 	Graph [1]
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/WechatIMG7.png">
+</p>
+
 By iterations and loop structures, we can visit all files and collect statistics one by one and layer by layer. Subsequently, by importing and utilizing ‘Seaborn’, a python data visualization library based on ‘matplotlib’, a graph with 286,433 discrete points was drawn.Each point in the graph corresponds to a local image, and the x-axis represents the widths of images, the y-axis represents the heights of images. The origin point (0, 0) is an unreal point I made up for initializing the points set, and the point at the top-right corner is( 2000, 2000).
 
 In addition, we have also gotten the averages of widths ,heights and the width to height ratios which are 499.864 ,461.850 and 1.748 respectively.
