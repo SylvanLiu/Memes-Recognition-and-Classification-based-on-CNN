@@ -16,6 +16,12 @@ The more frequently we use ‘Social Function Pictures’ in our daily life, the
 
 ## 1. Data Preparation and Pretest Analysis
 
+In order to get enough data for this dissertation in a faster and more convenient way, I have asked two best friends of mine for some indispensable help. I knew that they have a great quantity of images inside their computers and mobile phones, which have been stored locally as cache files but are never wiped, from the variety of mainstream social media and social software. Besides this, most of their images are the kinds I need for this dissertation.
+
+Therefore, I copied all files from their devices, with sincere gratitude, as raw material of my following exploration and experiment. As a matter of fact, we used to share these amusing images with each other , not only for fun, we all consider that it is really crucial to refresh our ‘stock’ timely in order to help us not to be knocked out in contemporary era that everyone is facing ‘Internet of Everything’, the brand new hot issues and topics will burst into your eyes in the next second. And this is no longer the technology only need to be mastered by young people, though we are not willing to admit that, it is a real happened phenomenon ,that currently, conversation will get exceedingly awkward and weird if we stop using any ‘Social Function Pictures’ inside it.(and I reckon that in this situation, emojis should be considered as ‘Social Function Pictures’ too.)
+
+Before embarking on the main task, I had tried to dig some common attributes by utilizing simple big data analysis on those images. During I was doing this, one thing deserves attention was that there would exist a certain amount of images were not in their right extensions, it would incur unexpected errors in our following operations. To solve this, we can discriminate their real formats by opening the file in binary, then read a specific serial number of each file, the four sets of numbers in the header of images files can manifest their actual methods of coding. All kinds of formats appeared in the entire data set, and their proportions, are listed below, with their specific serial numbers in decimal and Hexadecimal forms. (Items which have been marked gray are abandoned due to they are useless at all, meanwhile, we only need to focus on these four formats are not in gray which contain all possibilities we will meet in the future.) 
+
 | Type Name  | Hex Code | Decimal Code |
 | ------------- | ------------- | ------------- |
 | Standard JPEG/JFIF Format(57.92%) | 0xFF 0xD8 0xFF 0xE0 |  [255, 216, 255, 224] |
@@ -30,3 +36,5 @@ The more frequently we use ‘Social Function Pictures’ in our daily life, the
 |Ditto|0xFF 0xD8 0xFF 0xED|[255, 216, 255, 237]|
 |Ditto|0xFF 0xD8 0xFF 0xFE|[255, 216, 255, 254]|
 |Other 16 Types of Equivocal Formats (0.00%)|	N/A	| N/A |
+
+### 1.1 	Graph [1]
