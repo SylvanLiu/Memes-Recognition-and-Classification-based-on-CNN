@@ -18,7 +18,7 @@ Notwithstanding we can quickly comprehend and integrate extremely abstract conte
 
 The more frequently we use ‘Social Function Pictures’ in our daily life, the eagerer are the needs for us to develop an agile and efficient method that can retrieve the deep-seated semantics of them by the subjective wants of people in specific situations.
 
-### Key word: Computer Vision; Image Processing; Deep Learning; Convolutional Neural Network; Emotion Recognition ; Affective computing.
+#### Key word: Computer Vision; Image Processing; Deep Learning; Convolutional Neural Network; Emotion Recognition ; Affective computing.
 
 ## Data Preparation and Pretest Analysis
 
