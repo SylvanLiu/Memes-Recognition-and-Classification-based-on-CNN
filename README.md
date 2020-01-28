@@ -16,6 +16,8 @@ The more frequently we use ‘Social Function Pictures’ in our daily life, the
 
 ## 1. Data Preparation and Pretest Analysis
 
+| Type Name  | Hex Code | Decimal Code |
+| ------------- | ------------- | ------------- |
 | Standard JPEG/JFIF Format(57.92%) | 	0xFF 0xD8 0xFF 0xE0	 |  [255, 216, 255, 224] |
 |PNG File (21.75%)	|0x89 0x50 0x4E 0x47	|[137, 80, 78, 71]|
 |Standard JPEG/EXIF Format (12.06%)|	0xFF 0xD8 0xFF 0xE1|	[255, 216, 255, 225]|
