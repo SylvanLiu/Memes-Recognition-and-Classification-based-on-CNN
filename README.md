@@ -66,7 +66,7 @@ Influenced by this, the images in our life are likely to be reasonably wider.
 
 <p align="center">
   <img width="250" height="250" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/B0.png">
-  <img width="350" height="350" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/B1.png">
+  <img width="300" height="300" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results%20Visualisation/B1.png">
 </p>
 
 #### 1.2.1-1 However, to the SFP., why are the diversities between their widths and heights not so apparent as we found before on general images?
