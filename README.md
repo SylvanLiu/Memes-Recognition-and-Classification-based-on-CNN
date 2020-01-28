@@ -2,7 +2,9 @@
 
 The folder with name 'labeled_Data' contains a partial dataset of self-labelled memes only for exhibition, which were picked from an around-300GB, 600 thousand unlabled raw memes. (If you need that for having some fun, just feel free to contact me)
 
-This project was proposed merely for my personal interest, partially implemented by local python scripts and deployed on aliyun PAI machine learning platform with online configuration files. 
+This project was proposed merely for my personal interest, partially implemented by local python scripts for data processing and pre-processing ,and then deployed on aliyun PAI machine learning platform with online configuration files for training and predicting. 
+
+#### Key word: Computer Vision; Image Processing; Deep Learning; Convolutional Neural Network; Emotion Recognition ; Affective computing.
 
 ## Abstract
 
@@ -17,8 +19,6 @@ The appearance of ‘Social Function Pictures’ perfectly meets the demand of t
 Notwithstanding we can quickly comprehend and integrate extremely abstract content in enigmatic approaches that no single computer can truly compare, our limitations are also very obvious, it is totally impossible for most of us to exert calculation on the mass data by giving an appointed mathematical logic structure and formula, even if it is quite simple and we can assume that we will never feel tired and bored about this, subsequently come out the exact result set.
 
 The more frequently we use ‘Social Function Pictures’ in our daily life, the eagerer are the needs for us to develop an agile and efficient method that can retrieve the deep-seated semantics of them by the subjective wants of people in specific situations.
-
-#### Key word: Computer Vision; Image Processing; Deep Learning; Convolutional Neural Network; Emotion Recognition ; Affective computing.
 
 ## Data Preparation and Pretest Analysis
 
