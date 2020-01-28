@@ -60,7 +60,7 @@ Subsequently, I picked 3,037 genuine ‘Social Function Pictures’ by manually 
 Similar to the super wide scenes presented by our eyes, as ways of recording or simulating the real world which can make us harbor the stronger sense of ‘immersion’, images contain realistic content prefer high width to height ratios, like 2:1 vision or higher. We can find that, though wide visions can make us feel calm and relaxed.
 Influenced by this, the images in our life are likely to be reasonably wider.
 
-1.2.1-1 However, to the SFP., why are the diversities between their widths and heights not so apparent as we found before on general images?
+#### 1.2.1-1 However, to the SFP., why are the diversities between their widths and heights not so apparent as we found before on general images?
 By observing and matching all the SFP. with final forms, not only can we find nearly every one of them actually just revolves around a head, especially a set of anthropomorphic facial features on the head, instead of the full image, and sometimes mingled with extra body movements or poses, this also suits general portrait-style images and the prototype of SFP. 
 For example, the following sample is very typical for illustrating this thought, it is a standard size of wide silver screen, but the only place need to be highlighted in it is the facial expression of this actor. Hence it is quite easy to figure out where the kernel is of this pictures.
 
