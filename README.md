@@ -96,29 +96,28 @@ By way of conclusion, the best way of carrying information from the circle kerne
 
 # REFERENCE
 
-[1] Yu Z . Image based Static Facial Expression Recognition with Multiple Deep Network Learning[C]// Acm on International Conference on Multimodal Interaction. ACM, 2015. [2] Krizhevsky A , Sutskever I , Hinton G . ImageNet Classification with Deep Convolutional
-Neural Networks[C]// NIPS. Curran Associates Inc. 2012.
-[3] Cowen A S , Keltner D . Self-report captures 27 distinct categories of emotion bridged by
-continuous gradients[J]. Proceedings of the National Academy of Sciences,
-2017:201702247.
-[4] David Eberly, Perspective Mappings[J]. Geometric Tools, Redmond WA 98052 , 2011. [5] Plutchik R . A psychoevolutionary theory of emotion.[J]. Emotion Theory Research &
-Experience, 2000, 21(4-5):529-553.
-[6] Pei S C , Lin C N . Image normalization for pattern recognition[J]. Image and Vision
-Computing, 1995, 13(10):711-723.
-[7] Zhang S J , Cao X B , Zhang F , et al. Monocular vision-based iterative pose estimation
-algorithm from corresponding feature points[J]. Science in China Series F (Information
-Science), 2010, 53(8):1682-1696.
-[8] Kazemi V , Sullivan J . One Millisecond Face Alignment with an Ensemble of Regression
-Trees[C]// 2014 IEEE Conference on Computer Vision and Pattern Recognition. IEEE,
-2014.
-[9] Liu N , Wang K , Jin X , et al. Visual affective classification by combining visual and text
-features[J]. PLoS ONE, 2017, 12(8):e0183018..
-[10] Goodfellow I J, Pouget-Abadie J, Mirza M, et al. Generative adversarial nets[C]//
-International Conference on Neural Information Processing Systems. 2014.
-[11] Ahmad K . Affective Computing and Sentiment Analysis[J]. IEEE Intelligent Systems,
-2016, 31(2):102-107.
+[1] Yu Z . Image based Static Facial Expression Recognition with Multiple Deep Network Learning[C]// Acm on International Conference on Multimodal Interaction. ACM, 2015. [2] Krizhevsky A , Sutskever I , Hinton G . ImageNet Classification with Deep Convolutional Neural Networks[C]// NIPS. Curran Associates Inc. 2012.
+
+[3] Cowen A S , Keltner D . Self-report captures 27 distinct categories of emotion bridged by continuous gradients[J]. Proceedings of the National Academy of Sciences, 2017:201702247.
+
+[4] David Eberly, Perspective Mappings[J]. Geometric Tools, Redmond WA 98052 , 2011. [5] Plutchik R . A psychoevolutionary theory of emotion.[J]. Emotion Theory Research & Experience, 2000, 21(4-5):529-553.
+
+[6] Pei S C , Lin C N . Image normalization for pattern recognition[J]. Image and Vision Computing, 1995, 13(10):711-723.
+
+[7] Zhang S J , Cao X B , Zhang F , et al. Monocular vision-based iterative pose estimation algorithm from corresponding feature points[J]. Science in China Series F (Information Science), 2010, 53(8):1682-1696.
+
+[8] Kazemi V , Sullivan J . One Millisecond Face Alignment with an Ensemble of Regression Trees[C] 2014 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2014.
+
+[9] Liu N , Wang K , Jin X , et al. Visual affective classification by combining visual and text features[J]. PLoS ONE, 2017, 12(8):e0183018..
+
+[10] Goodfellow I J, Pouget-Abadie J, Mirza M, et al. Generative adversarial nets[C] International Conference on Neural Information Processing Systems. 2014.
+
+[11] Ahmad K . Affective Computing and Sentiment Analysis[J]. IEEE Intelligent Systems, 2016, 31(2):102-107.
+
 [12] 刘剑聪. 社交图像美学分类与优化算法研究[D]. 2014.
+
 [13] 赵思成. 图像情感感知的计算与应用研究[D]. 2016.
+
 [14] 黄杰雄. 社交图像的情感和美学评价研究[D]. 2018.
-[15] 刘海龙, 李宝安, 吕学强, et al. 基于深度卷积神经网络的图像检索算法研究[J].
-计算机应用研究, 2017(12):302-305.
+
+[15] 刘海龙, 李宝安, 吕学强, et al. 基于深度卷积神经网络的图像检索算法研究[J]. 计算机应用研究, 2017(12):302-305.
