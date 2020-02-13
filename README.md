@@ -82,7 +82,7 @@ By observing and matching all the SFP. with final forms, not only can we find ne
 For example, the following sample is very typical for illustrating this thought, it is a standard size of wide silver screen, but the only place need to be highlighted in it is the facial expression of this actor. Hence it is quite easy to figure out where the kernel is of this pictures.
 
 <p align="center">
-  <img src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results/Demo.png">
+  <img src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results/Demo_1.png">
 </p>
 
 #### 1.2.1-2 But why all normal images we’ve received are rectangles instead of circles? 
@@ -92,4 +92,33 @@ Furthermore, it’s far more reasonable and easier for our ancestors to divide w
 On the contrary, things in rectangles will be cheaper, then be well used and accepted by common people. However, the majority of things were created by ordinary people and working people. So, with a long time development of human civilization, our world actually is ‘Things in rectangles’ now, our paintings and films are shown on paper and screens in rectangles, our buildings and vehicles where we stay are cubes. It is also very feasible that all images are in rectangles inside our mobile devices which are cubes.
 By way of conclusion, the best way of carrying information from the circle kernel of a picture is making an external square of it. And sometimes the kernels can be ellipses, then the figures generated will be rectangles.
 
-...
+... partially translated, still in progress
+
+# REFERENCE
+
+[1] Yu Z . Image based Static Facial Expression Recognition with Multiple Deep Network Learning[C]// Acm on International Conference on Multimodal Interaction. ACM, 2015. [2] Krizhevsky A , Sutskever I , Hinton G . ImageNet Classification with Deep Convolutional
+Neural Networks[C]// NIPS. Curran Associates Inc. 2012.
+[3] Cowen A S , Keltner D . Self-report captures 27 distinct categories of emotion bridged by
+continuous gradients[J]. Proceedings of the National Academy of Sciences,
+2017:201702247.
+[4] David Eberly, Perspective Mappings[J]. Geometric Tools, Redmond WA 98052 , 2011. [5] Plutchik R . A psychoevolutionary theory of emotion.[J]. Emotion Theory Research &
+Experience, 2000, 21(4-5):529-553.
+[6] Pei S C , Lin C N . Image normalization for pattern recognition[J]. Image and Vision
+Computing, 1995, 13(10):711-723.
+[7] Zhang S J , Cao X B , Zhang F , et al. Monocular vision-based iterative pose estimation
+algorithm from corresponding feature points[J]. Science in China Series F (Information
+Science), 2010, 53(8):1682-1696.
+[8] Kazemi V , Sullivan J . One Millisecond Face Alignment with an Ensemble of Regression
+Trees[C]// 2014 IEEE Conference on Computer Vision and Pattern Recognition. IEEE,
+2014.
+[9] Liu N , Wang K , Jin X , et al. Visual affective classification by combining visual and text
+features[J]. PLoS ONE, 2017, 12(8):e0183018..
+[10] Goodfellow I J, Pouget-Abadie J, Mirza M, et al. Generative adversarial nets[C]//
+International Conference on Neural Information Processing Systems. 2014.
+[11] Ahmad K . Affective Computing and Sentiment Analysis[J]. IEEE Intelligent Systems,
+2016, 31(2):102-107.
+[12] 刘剑聪. 社交图像美学分类与优化算法研究[D]. 2014.
+[13] 赵思成. 图像情感感知的计算与应用研究[D]. 2016.
+[14] 黄杰雄. 社交图像的情感和美学评价研究[D]. 2018.
+[15] 刘海龙, 李宝安, 吕学强, et al. 基于深度卷积神经网络的图像检索算法研究[J].
+计算机应用研究, 2017(12):302-305.
