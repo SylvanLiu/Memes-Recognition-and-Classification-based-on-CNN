@@ -92,7 +92,7 @@ Furthermore, it’s far more reasonable and easier for our ancestors to divide w
 On the contrary, things in rectangles will be cheaper, then be well used and accepted by common people. However, the majority of things were created by ordinary people and working people. So, with a long time development of human civilization, our world actually is ‘Things in rectangles’ now, our paintings and films are shown on paper and screens in rectangles, our buildings and vehicles where we stay are cubes. It is also very feasible that all images are in rectangles inside our mobile devices which are cubes.
 By way of conclusion, the best way of carrying information from the circle kernel of a picture is making an external square of it. And sometimes the kernels can be ellipses, then the figures generated will be rectangles.
 
-##### ... partially translated, still in progress
+### ... partially translated, still in progress
 
 ## REFERENCE
 
