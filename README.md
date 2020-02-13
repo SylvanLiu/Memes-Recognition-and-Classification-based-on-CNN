@@ -1,4 +1,4 @@
-# Social-Images(Memes) Recognition and Classification Based on Convolutional Neural Network.
+# Social-Images(Memes) Recognition and Classification Based on Convolutional Neural Network. (No further maintain after July, 2019)
 
 The folder with name 'labelled_Data' contains a partial dataset of self-labelled memes only for exhibition, which were picked from an around-300GB, 600 thousand unlabled raw memes(If you need that for having some fun, just feel free to contact me);
 The folder with name 'Img4Test' contains the samples for testing the local python scripts which process and pre-process local memes.
