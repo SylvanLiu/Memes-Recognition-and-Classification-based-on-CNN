@@ -5,9 +5,7 @@ This project is implemented by both local programs for local data processing and
 
 ### Please notice that some modules in this repository are not highly completed, and this project was merely an immature attempt for learning/attaining my primary design. 
 
-As you may see there are many pending and abandoned versions of pdf files in folder 'Labelling Criteria (Simplified Chinese)', it is because the model of affective computation had been amended for several times for lowering the complexity due to the bad fitting performance and the difficulty of labelling. 
-
-So from my point of view, it isn't an excellent choice to recognise or calculate complex emotions merely through affective modelling as well as normally supervised learning. However, it is feasible to distinguish the very basic emotions by utilising face recognition technology.
+As you may see there are many pending and abandoned versions of pdf files in folder 'Labelling Criteria (Simplified Chinese)', it is because the model of affective computation had been amended for several times for lowering the complexity due to the bad fitting performance and the difficulty of labelling. So from my point of view, it isn't an excellent choice to recognise or calculate complex emotions merely through affective modelling as well as normally supervised learning. However, it is feasible to distinguish the very basic emotions by utilising face recognition technology.
 
 The folder with name 'labelled_Data' contains a small portion of unpacked dataset of self-labelled memes as a straightforward display, which were manually picked from a 300GB, 600 thousand unlabled raw memes collection. And the folder with name 'Img4Test' contains a couple of samples for testing the local program.
 
