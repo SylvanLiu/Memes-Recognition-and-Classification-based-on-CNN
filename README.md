@@ -45,30 +45,27 @@ Before embarking on the main task, I had tried to dig some common attributes by 
 |Ditto|0xFF 0xD8 0xFF 0xFE|[255, 216, 255, 254]|
 |Other 16 Types of Equivocal Formats (0.00%)|	N/A	| N/A |
 
-### 1.1
+By iterations and loop structures, we can visit all files and collect statistics one by one and layer by layer. Subsequently, by importing and utilizing ‘Seaborn’, a python data visualization library based on ‘matplotlib’, a graph with 286,433 discrete points was drawn.Each point in the graph corresponds to a local image, and the x-axis represents the widths of images, the y-axis represents the heights of images. The origin point (0, 0) is an unreal point I made up for initializing the points set, and the point at the top-right corner is( 2000, 2000).
 <p align="center">
   <img width="500" height="500" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results/C0.png">
 </p>
-
-By iterations and loop structures, we can visit all files and collect statistics one by one and layer by layer. Subsequently, by importing and utilizing ‘Seaborn’, a python data visualization library based on ‘matplotlib’, a graph with 286,433 discrete points was drawn.Each point in the graph corresponds to a local image, and the x-axis represents the widths of images, the y-axis represents the heights of images. The origin point (0, 0) is an unreal point I made up for initializing the points set, and the point at the top-right corner is( 2000, 2000).
 
 In addition, we have also gotten the averages of widths ,heights and the width to height ratios which are 499.864 ,461.850 and 1.748 respectively.
 
 A glance at the graph generated reveals two noteworthy points we need to figure out:
 
-#### 1.1.1 There are several apparent horizontal, vertical and oblique straight lines on the graph.
+#### 1. There are several apparent horizontal, vertical and oblique straight lines on the graph.
 By means of picking out images correspond to points on those straight lines, I found all images that with the same widths or heights are complete and incomplete screen-shots made from electronic equipment in various sizes screens. 
 However, most of products are manufactured under some specific industry rules and developed along the course of their own. For example, the mainstream of the widths and heights to current screens prefers 16 : 9.
 As a result, screen-shots recorded by equipment will follow similar laws. We can even predict the graph that shows how much does the proportion of ever model account for in all types of screens, by analyzing all kinds of screen-shots. For now, however, these lines can be the constraints for us to do initial selections.
 
-#### 1.1.2 Majority of points focus on a specific area.
+#### 2. Majority of points focus on a specific area.
 Restricted to the media transmission rules which are made by developers and services providers for saving costs and improving efficiency, most of images will be compressed to relatively appropriate sizes before uploading, therefore it is inevitably that over 90 percent received images which have been spreading on Internet will gather around a clear resolution area like the zone shown on the graph. And the zone which has the biggest density of images is the triangle area between (0,0) and (720, 1080).
 
-### 1.2
 Subsequently, I picked 3,037 genuine ‘Social Function Pictures’ by manually recognition, with the averages of widths, heights and the width to height ratios are 193.877 185.261 and 1.074 respectively, and both graphs are posted below.
 
-#### 1.2.1 Resolutions of them largely follow a linear regression, that most of their shapes prefer converging towards squares, whereas, the heights are like to be marginally shorter than widths.
-Similar to the super wide scenes presented by our eyes, as ways of recording or simulating the real world which can make us harbor the stronger sense of ‘immersion’, images contain realistic content prefer high width to height ratios, like 2:1 vision or higher. We can find that, though wide visions can make us feel calm and relaxed.
+Resolutions of them largely follow a linear regression, that most of their shapes prefer converging towards squares, whereas, the heights are like to be marginally shorter than widths. Similar to the super wide scenes presented by our eyes, as ways of recording or simulating the real world which can make us harbor the stronger sense of ‘immersion’, images contain realistic content prefer high width to height ratios, like 2:1 vision or higher. We can find that, though wide visions can make us feel calm and relaxed.
+
 Influenced by this, the images in our life are likely to be reasonably wider.
 
 <p align="center">
@@ -76,7 +73,7 @@ Influenced by this, the images in our life are likely to be reasonably wider.
   <img width="250" height="250" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results/B1.png">
 </p>
 
-#### 1.2.1-1 However, to the SFP., why are the diversities between their widths and heights not so apparent as we found before on general images?
+#### 1. However, to the SFP., why are the diversities between their widths and heights not so apparent as we found before on general images?
 By observing and matching all the SFP. with final forms, not only can we find nearly every one of them actually just revolves around a head, especially a set of anthropomorphic facial features on the head, instead of the full image, and sometimes mingled with extra body movements or poses, this also suits general portrait-style images and the prototype of SFP. 
 For example, the following sample is very typical for illustrating this thought, it is a standard size of wide silver screen, but the only place need to be highlighted in it is the facial expression of this actor. Hence it is quite easy to figure out where the kernel is of this pictures.
 
@@ -84,7 +81,7 @@ For example, the following sample is very typical for illustrating this thought,
   <img src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results/Demo_1.png">
 </p>
 
-#### 1.2.1-2 But why all normal images we’ve received are rectangles instead of circles? 
+#### 2. But why all normal images we’ve received are rectangles instead of circles? 
 It is not the main task for us, but I still want to try to provide a reason for this.
 In our life, making things in circles needs far more material costs and far more difficult manufacturing techniques than making things with same functions but in rectangles.
 Furthermore, it’s far more reasonable and easier for our ancestors to divide whole things like skins along simple lines at the first time they had found ways, because separating things into circle and circle requires relatively complex mathematical knowledge or it would be a hard time finding a valid approach to shrink and dispose the confusing waste.For most situation, things in circles would only be privilege for the people in high degrees like royal families, or be used for some specific places like wheels of vehicles. 
