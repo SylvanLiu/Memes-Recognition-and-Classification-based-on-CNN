@@ -5,8 +5,8 @@
 
 #### Please notice that some modules in this repository are not highly completed, and this project was merely an immature attempt for learning/attaining my primary design. 
 
-The dissertation is written in Simplified Chinese, following content in only an introduction.
-[Contribution guidelines for this project](docs/Thesis.pdf)
+[Contribution guidelines for this project](docs/Thesis_Simplified_Chinese.pdf)The dissertation is in Simplified Chinese, following content in only an introduction.
+
 
 This project is implemented by both local programs for local data processing and packing, and online programs which were deployed on Aliyun PAI machine learning platform for training and testing CNN models.
 
