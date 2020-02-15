@@ -23,6 +23,7 @@ import argparse
 
 FLAGS = None
 
+
 def load_data(dirname, one_hot=False):
     X_train = []
     Y_train = []
@@ -53,7 +54,9 @@ def load_data(dirname, one_hot=False):
 
     return (X_train, Y_train), (X_test, Y_test)
 
-#reporthook from stackoverflow #13881092
+# reporthook from stackoverflow #13881092
+
+
 def reporthook(blocknum, blocksize, totalsize):
     readsofar = blocknum * blocksize
     if totalsize > 0:
@@ -61,10 +64,11 @@ def reporthook(blocknum, blocksize, totalsize):
         s = "\r%5.1f%% %*d / %d" % (
             percent, len(str(totalsize)), readsofar, totalsize)
         sys.stderr.write(s)
-        if readsofar >= totalsize: # near the end
+        if readsofar >= totalsize:  # near the end
             sys.stderr.write("\n")
-    else: # total size is unknown
+    else:  # total size is unknown
         sys.stderr.write("read %d\n" % (readsofar,))
+
 
 def load_batch(fpath):
     object = file_io.read_file_to_string(fpath)
@@ -79,6 +83,7 @@ def load_batch(fpath):
     data = d["data"]
     labels = d["labels"]
     return data, labels
+
 
 def main(_):
     dirname = os.path.join(FLAGS.buckets, "")
@@ -122,6 +127,7 @@ def main(_):
     model_path = os.path.join(FLAGS.checkpointDir, "model.tfl")
     print(model_path)
     model.save(model_path)
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

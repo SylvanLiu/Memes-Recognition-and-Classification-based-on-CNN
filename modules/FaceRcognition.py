@@ -229,7 +229,7 @@ def draw_Graph(image, points_Set, constraints_Set):
         for point_temp in points_Set:
             count_num += 1
             d.ellipse((point_temp[0]-2, point_temp[1]-2,
-                    point_temp[0]+2, point_temp[1]+2), fill='green')
+                       point_temp[0]+2, point_temp[1]+2), fill='green')
             d.text(point_temp, str(count_num), 'yellow', font)
         # Draw outline as rectangle.
         d.line([(constraints_Set[0], constraints_Set[1]), (constraints_Set[2], constraints_Set[1]),
