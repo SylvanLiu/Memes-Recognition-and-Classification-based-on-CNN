@@ -1,9 +1,7 @@
 # Social-Images(Memes) Recognition and Classification Based on Convolutional Neural Network
 ## Basically no further changes after July, 2019
 
-It was proposed merely for my personal interest, partially implemented by local python scripts for data processing and pre-processing, and then deployed on Aliyun online PAI machine learning platform with online configuration files for training and predicting. 
-
-Please Some modules in this repository are not highly completed, and please keep in mind that everything of this project was merely an immature attempt for learning/attaining my primary design.
+Please keep in mind that some modules in this repository are not highly completed, and this project was merely an immature attempt for learning/attaining my primary design. As you may see there are many pending and abandoned versions of pdf files in folder 'Labelling Criteria (Simplified Chinese)', it is because the model of affective computation had been amended for several times for lowering the complexity due to the bad fitting performance and the difficulty of labelling. So from my point of view, it isn't an excellent choice to recognise or calculate complex emotions merely through affective modelling as well as normally supervised learning. However, it is feasible to distinguish the very basic emotions by utilising face recognition technology.
 
 The folder with name 'labelled_Data' contains a partial dataset of self-labelled memes only for exhibition, which were picked from an around-300GB, 600 thousand unlabled raw memes(If you need that for having some fun, just feel free to contact me);
 The folder with name 'Img4Test' contains the samples for testing the local python scripts which process and pre-process local memes.
