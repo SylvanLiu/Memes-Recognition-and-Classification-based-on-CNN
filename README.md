@@ -45,8 +45,7 @@ Before embarking on the main task, I had tried to dig some common attributes by 
 |Ditto|0xFF 0xD8 0xFF 0xFE|[255, 216, 255, 254]|
 |Other 16 Types of Equivocal Formats (0.00%)|	N/A	| N/A |
 
-### 1.1 	Graph [1]
-
+### 1.1
 <p align="center">
   <img width="500" height="500" src="https://github.com/SylvanLiu/MemesClassification/blob/master/Results/C0.png">
 </p>
@@ -65,7 +64,7 @@ As a result, screen-shots recorded by equipment will follow similar laws. We can
 #### 1.1.2 Majority of points focus on a specific area.
 Restricted to the media transmission rules which are made by developers and services providers for saving costs and improving efficiency, most of images will be compressed to relatively appropriate sizes before uploading, therefore it is inevitably that over 90 percent received images which have been spreading on Internet will gather around a clear resolution area like the zone shown on the graph. And the zone which has the biggest density of images is the triangle area between (0,0) and (720, 1080).
 
-### 1.2 Graph [2]
+### 1.2
 Subsequently, I picked 3,037 genuine ‘Social Function Pictures’ by manually recognition, with the averages of widths, heights and the width to height ratios are 193.877 185.261 and 1.074 respectively, and both graphs are posted below.
 
 #### 1.2.1 Resolutions of them largely follow a linear regression, that most of their shapes prefer converging towards squares, whereas, the heights are like to be marginally shorter than widths.
