@@ -1,5 +1,5 @@
 # Social-Images(Memes) Recognition and Classification Based on Convolutional Neural Network
-## Basically no further changes after July, 2019
+## Basically no further changes after July 2019
 
 This project is implemented by both local programs for local data processing and packing, and online programs which were deployed on Aliyun PAI machine learning platform for training and testing CNN models.
 
