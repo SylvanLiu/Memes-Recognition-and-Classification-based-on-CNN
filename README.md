@@ -11,6 +11,8 @@ As you may see there are many pending and abandoned versions of pdf files in fol
 
 The folder with name 'labelled_Data' contains a small portion of unpacked dataset of self-labelled memes as a straightforward display, which were manually picked from an around 300GB, over 600,000 memes collection. And the folder with name 'Img4Test' contains a couple of samples for testing the local program.
 
+![alt text](https://github.com/SylvanLiu/Memes-Recognition-and-Classification-based-on-CNN/blob/master/Results/Display.png)
+
 #### Key word: Computer Vision; Image Processing; Deep Learning; Convolutional Neural Network; Emotion Recognition ; Affective computing.
 
 ## Abstract
