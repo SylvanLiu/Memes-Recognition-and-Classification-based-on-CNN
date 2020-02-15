@@ -2,7 +2,8 @@
 ## Basically no further changes after July, 2019
 
 It was proposed merely for my personal interest, partially implemented by local python scripts for data processing and pre-processing, and then deployed on Aliyun online PAI machine learning platform with online configuration files for training and predicting. 
-##### Some modules in this repository are not highly completed, and please keep in mind that everything of this project was merely an immature attempt for learning/attaining my primary design.
+
+Please Some modules in this repository are not highly completed, and please keep in mind that everything of this project was merely an immature attempt for learning/attaining my primary design.
 
 The folder with name 'labelled_Data' contains a partial dataset of self-labelled memes only for exhibition, which were picked from an around-300GB, 600 thousand unlabled raw memes(If you need that for having some fun, just feel free to contact me);
 The folder with name 'Img4Test' contains the samples for testing the local python scripts which process and pre-process local memes.
